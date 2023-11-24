@@ -1,0 +1,28 @@
+.not-found-bg-container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 500px;
+}
+
+.not-found-heading {
+  font: bold 24px 'roboto';
+  margin: 40px 10px 10px 10px;
+}
+
+.not-found-description {
+  font: 400 16px 'Roboto';
+  text-align: center;
+  color: #f1f5f9;
+  width: 80%;
+}

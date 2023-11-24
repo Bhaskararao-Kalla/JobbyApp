@@ -1,0 +1,100 @@
+.profile-filter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .profile-filter-container {
+    width: 30%;
+  }
+}
+
+.profile-section-search-container {
+  height: 42px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  border: 1px solid #f1f5f9;
+  border-radius: 6px;
+}
+
+.filter-search-button {
+  width: 20%;
+  height: 100%;
+  background-color: #272727;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+.profile-search-input-box {
+  width: 80%;
+  height: 100%;
+  background-color: transparent;
+  outline: none;
+  color: #ffffff;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.profile-filter-hr {
+  width: 80%;
+  background-color: #7e858e;
+  height: 1px;
+  margin-top: 10px;
+  border: none;
+}
+
+.search-button {
+  width: 20%;
+  height: 100%;
+  background-color: #272727;
+  border-radius: 5px;
+}
+
+.filter-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  color: #f8fafc;
+}
+
+.filter-heading {
+  font: 500 21px 'Roboto';
+}
+
+.filter-ul-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin-top: 0px;
+  padding-left: 0px;
+}
+.filter-li-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.filter-input {
+  height: 16px;
+  width: 16px;
+}
+
+.filter-label {
+  font: 400 16px 'Roboto';
+  margin-left: 10px;
+}
+
+@media (min-width: 786px) {
+  .profile-filter-container {
+    width: 30%;
+  }
+
+  .profile-section-search-container {
+    display: none;
+  }
+}

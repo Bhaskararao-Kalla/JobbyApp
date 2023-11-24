@@ -1,0 +1,32 @@
+.skill-item-container {
+  flex: 1 1 120px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.skill-image {
+  height: 50px;
+  width: 50px;
+}
+
+.skill-name {
+  font: 400 16px 'roboto';
+  margin-left: 10px;
+}
+
+@media (min-width: 768px) {
+  .skill-item-container {
+    flex-basis: 300px;
+    margin-bottom: 50px;
+  }
+
+  .skill-image {
+    height: 75px;
+    width: 75px;
+  }
+
+  .skill-name {
+    margin-left: 20px;
+  }
+}

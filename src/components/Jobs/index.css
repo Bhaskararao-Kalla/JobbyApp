@@ -1,0 +1,12 @@
+.jobs-page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+}
+
+@media (min-width: 768px) {
+  .jobs-page-container {
+    height: 100vh;
+  }
+}

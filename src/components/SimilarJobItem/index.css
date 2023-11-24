@@ -1,0 +1,77 @@
+.similar-item-container {
+  flex: 1 1 300px;
+  background-color: #272727;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.similar-job-container {
+  display: flex;
+  align-items: center;
+}
+
+.similar-card-logo {
+  height: 72px;
+  width: 72px;
+}
+
+.similar-job-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+}
+
+.similar-job-title {
+  font: bold 21px 'Roboto';
+  margin-bottom: 0px;
+}
+
+.card-stars-container {
+  display: flex;
+  align-items: center;
+}
+
+.similar-job-description-heading {
+  font: 500 18px 'Roboto';
+  margin-bottom: 0px;
+}
+
+.similar-job-description {
+  font: 400 16px 'Roboto';
+}
+.similar-job-location-type-container {
+  display: flex;
+  align-items: center;
+}
+
+.similar-job-location {
+  display: flex;
+  align-items: center;
+  margin-right: 21px;
+}
+
+.similar-job-job-type {
+  display: flex;
+  align-items: center;
+}
+
+.similar-job-location-details {
+  font: 400 16px 'Roboto';
+  margin-left: 8px;
+}
+
+.similar-job-location-icon {
+  color: #6366f1;
+}
+
+.similar-job-gmail-icon {
+  color: #ff0b37;
+}
+
+@media (min-width: 768px) {
+  .similar-item-container {
+    flex-grow: 250px;
+  }
+}
